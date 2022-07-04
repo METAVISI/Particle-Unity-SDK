@@ -1,0 +1,12 @@
+digraph "Nxr.Internal.NxrInput.OnBackUp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Nxr.Internal.NxrInput.On\lBackUp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Whether the back button is up. (hmd or controller)"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrInput.Get\lControllerKeyUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_input.html#a73821bc845f9c8d882f2bc55e99c149e",tooltip="Check 3dof controller status, whether the button is up"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Nxr.Internal.NxrInput.Get\lKeyUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_input.html#afb8395a93cf7314a3500d9f2af64a3de",tooltip="Check hmd key status, whether the button is up"];
+}

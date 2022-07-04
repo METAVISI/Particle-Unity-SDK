@@ -1,0 +1,10 @@
+digraph "NibiruTask.InteractionManager.Is3DofControllerConnected"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="NibiruTask.InteractionManager.\lIs3DofControllerConnected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Is 3Dof controller connected"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrInput.Is3\lDofControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_input.html#a601e284ee8f588bf04e76d5e3db11ebb",tooltip="Get the connect status of 3Dof controller"];
+}

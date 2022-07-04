@@ -1,0 +1,31 @@
+digraph "NibiruTask.InteractionManager.IsInteractionSDKEnabled"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="NibiruTask.InteractionManager.\lIsInteractionSDKEnabled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Is interaction sdk enabled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NibiruTask.InteractionManager.\lIs3DofControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#aaf98c729bd1d278527331d2325dc5161",tooltip="Is 3Dof controller connected"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Nxr.Internal.NxrInput.Is3\lDofControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_input.html#a601e284ee8f588bf04e76d5e3db11ebb",tooltip="Get the connect status of 3Dof controller"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NibiruTask.InteractionManager.\lIsControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#ab689239b9df952c8dc00be18da3e24df",tooltip="Is controller connected"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Nxr.Internal.NxrViewer.Is\lControllerConnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_viewer.html#aa766a6354e6239c7f65aa5dd80aade24",tooltip="Is controller connect"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NibiruTask.InteractionManager.\lIsLeftControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#a26645adb4b2766333445cccb62f5ddc6",tooltip="Is left controller connected"];
+  Node6 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NibiruTask.InteractionManager.\lIsLeftHandMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#a5417737c9acfd1908f6fc1145b9dcda5",tooltip="Is left hand mode"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NibiruTask.InteractionManager.\lIsSixDofControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#a5d481a28a83031bcb6875ba84dda08b2",tooltip="Is sixdof controller connected"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NibiruTask.InteractionManager.\lIsRightControllerConnected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#a1ed913512b6de8c068b1db3d4fef7f87",tooltip="Is right controller connected"];
+  Node9 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NibiruTask.InteractionManager.\lIsRightHandMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#a3cf66d81e8c634cc4327dda1431b3e89",tooltip="Is right hand mode"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

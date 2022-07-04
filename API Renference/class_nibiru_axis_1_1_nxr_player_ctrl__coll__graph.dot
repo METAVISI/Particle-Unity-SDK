@@ -1,0 +1,7 @@
+digraph "NibiruAxis.NxrPlayerCtrl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NibiruAxis.NxrPlayerCtrl\n|+ debugInEditor\l+ controllerModelDisplay\l+ mTransform\l+ EditorRemoteQuat\l+ isNeedCustomModel\l+ customModelPrefabName\l+ GamepadEnabled\l+ Instance\l+ HeadPosition\l|+ OnDeviceConnectState()\l+ IsQuatConn()\l+ DestroyChild()\l+ CreateControllerHandler()\l+ GetControllerLaser()\l+ GetControllerLaserDot()\l+ ChangeControllerDisplay()\l+ CreateControllerModel()\l+ CreateControllerTips()\l+ CreateTipImgs()\l+ ChangeTipAlpha()\l+ IsControllerExist()\l+ GetRayStartPoint()\l+ GetRayEndPoint()\l+ GetControllerQuaternion()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

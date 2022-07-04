@@ -1,0 +1,1622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NibiruXR SDK Unity API Renference: Nxr.Internal.NxrViewer类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="RUIYUE_gaitubao_128x128.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NibiruXR SDK Unity API Renference
+   &#160;<span id="projectnumber">2.1.0</span>
+   </div>
+   <div id="projectbrief">NibiruXR UnitySDK</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.20 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nxr.html">Nxr</a></li><li class="navelem"><a class="el" href="namespace_nxr_1_1_internal.html">Internal</a></li><li class="navelem"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html">NxrViewer</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_nxr_1_1_internal_1_1_nxr_viewer-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Nxr.Internal.NxrViewer类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p> 
+ <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#details">更多...</a></p>
+
+<p>继承自 MonoBehaviour .</p>
+<div class="dynheader">
+Nxr.Internal.NxrViewer 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer__coll__graph.gif" border="0" usemap="#a_nxr_8_internal_8_nxr_viewer_coll__map" alt="Collaboration graph"/></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:adc994a0df74a7cad52643423b8eda0bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a> { , <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bda92b09c7c48c520c3c55e497875da437c">Eye.Right</a>, 
+<a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bda4f1f6016fc9f3f2353c0cc7c67b292bd">Eye.Center</a>
+ }</td></tr>
+<tr class="memdesc:adc994a0df74a7cad52643423b8eda0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distinguish the stereo eyes.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">更多...</a><br /></td></tr>
+<tr class="separator:adc994a0df74a7cad52643423b8eda0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0503f880b193b16d1910e214d0e0d67e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Distortion</a> { , <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67eaf40f9b0a9eced004f463266b5873832a">Distortion.Undistorted</a>
+ }</td></tr>
+<tr class="separator:a0503f880b193b16d1910e214d0e0d67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:afefa1055624c47df65efddc58f24aaab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#afefa1055624c47df65efddc58f24aaab">ShowHeadControl</a> ()</td></tr>
+<tr class="memdesc:afefa1055624c47df65efddc58f24aaab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show head control  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#afefa1055624c47df65efddc58f24aaab">更多...</a><br /></td></tr>
+<tr class="separator:afefa1055624c47df65efddc58f24aaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b777eff2b0a7391006e59c11d78835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ab3b777eff2b0a7391006e59c11d78835">HideHeadControl</a> ()</td></tr>
+<tr class="memdesc:ab3b777eff2b0a7391006e59c11d78835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hide head control  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ab3b777eff2b0a7391006e59c11d78835">更多...</a><br /></td></tr>
+<tr class="separator:ab3b777eff2b0a7391006e59c11d78835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d8766615b8b7eae56276829e31da99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae3d8766615b8b7eae56276829e31da99">RequestLock</a> ()</td></tr>
+<tr class="memdesc:ae3d8766615b8b7eae56276829e31da99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock head posture.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae3d8766615b8b7eae56276829e31da99">更多...</a><br /></td></tr>
+<tr class="separator:ae3d8766615b8b7eae56276829e31da99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab925f42ae637225e174e860572efd2a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ab925f42ae637225e174e860572efd2a3">RequestUnLock</a> ()</td></tr>
+<tr class="memdesc:ab925f42ae637225e174e860572efd2a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock head posture.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ab925f42ae637225e174e860572efd2a3">更多...</a><br /></td></tr>
+<tr class="separator:ab925f42ae637225e174e860572efd2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d32646108ef68f9170c4ccaf1e6c9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a42d32646108ef68f9170c4ccaf1e6c9c">GazeApi</a> (GazeTag tag)</td></tr>
+<tr class="memdesc:a42d32646108ef68f9170c4ccaf1e6c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change Gaze's size/color/status  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a42d32646108ef68f9170c4ccaf1e6c9c">更多...</a><br /></td></tr>
+<tr class="separator:a42d32646108ef68f9170c4ccaf1e6c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045931ac623717344a1e3f934428a98c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a045931ac623717344a1e3f934428a98c">GazeApi</a> (GazeTag tag, string param)</td></tr>
+<tr class="memdesc:a045931ac623717344a1e3f934428a98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parameter of Param behind GazeTag.Show and GazeTag.Hide is passed "".  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a045931ac623717344a1e3f934428a98c">更多...</a><br /></td></tr>
+<tr class="separator:a045931ac623717344a1e3f934428a98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a7dfbd200a7e8bb1575184872d281f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#af7a7dfbd200a7e8bb1575184872d281f">SwitchControllerMode</a> (bool enabled)</td></tr>
+<tr class="memdesc:af7a7dfbd200a7e8bb1575184872d281f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch to controller mode  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#af7a7dfbd200a7e8bb1575184872d281f">更多...</a><br /></td></tr>
+<tr class="separator:af7a7dfbd200a7e8bb1575184872d281f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5abb39734999ca4198dc4818ae15f222"><td class="memItemLeft" align="right" valign="top">Matrix4x4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a5abb39734999ca4198dc4818ae15f222">Projection</a> (<a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a> eye, <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Distortion</a> distortion=Distortion.Distorted)</td></tr>
+<tr class="separator:a5abb39734999ca4198dc4818ae15f222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a216eb3c68dbe110187e4a4e9bd7976b0"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a216eb3c68dbe110187e4a4e9bd7976b0">Viewport</a> (<a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a> eye, <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Distortion</a> distortion=Distortion.Distorted)</td></tr>
+<tr class="separator:a216eb3c68dbe110187e4a4e9bd7976b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7245912e511107749a4439df63f5d537"><td class="memItemLeft" align="right" valign="top">NxrHead&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a7245912e511107749a4439df63f5d537">GetHead</a> ()</td></tr>
+<tr class="memdesc:a7245912e511107749a4439df63f5d537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the NxrHead  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a7245912e511107749a4439df63f5d537">更多...</a><br /></td></tr>
+<tr class="separator:a7245912e511107749a4439df63f5d537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472023735f9059f581b8c5d529d6ea30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a472023735f9059f581b8c5d529d6ea30">Update3rdPartyPosition</a> (Vector3 position)</td></tr>
+<tr class="memdesc:a472023735f9059f581b8c5d529d6ea30"><td class="mdescLeft">&#160;</td><td class="mdescRight">The displacement data of Third-party.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a472023735f9059f581b8c5d529d6ea30">更多...</a><br /></td></tr>
+<tr class="separator:a472023735f9059f581b8c5d529d6ea30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bdf72622adab61d04674184c4516b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a86bdf72622adab61d04674184c4516b3">AndroidLog</a> (string msg)</td></tr>
+<tr class="memdesc:a86bdf72622adab61d04674184c4516b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print log use android logcat  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a86bdf72622adab61d04674184c4516b3">更多...</a><br /></td></tr>
+<tr class="separator:a86bdf72622adab61d04674184c4516b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6fcf210ebc3bb850d88eacd3b61985"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#afd6fcf210ebc3bb850d88eacd3b61985">UpdateState</a> ()</td></tr>
+<tr class="separator:afd6fcf210ebc3bb850d88eacd3b61985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfc6cf514a10bb086d56615a12651e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aebfc6cf514a10bb086d56615a12651e4">Recenter</a> ()</td></tr>
+<tr class="memdesc:aebfc6cf514a10bb086d56615a12651e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the tracker so that the user's current direction becomes forward.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aebfc6cf514a10bb086d56615a12651e4">更多...</a><br /></td></tr>
+<tr class="separator:aebfc6cf514a10bb086d56615a12651e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552802538d7d881e3b559c5f3c2f08c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a552802538d7d881e3b559c5f3c2f08c5">AppQuit</a> ()</td></tr>
+<tr class="memdesc:a552802538d7d881e3b559c5f3c2f08c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit app  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a552802538d7d881e3b559c5f3c2f08c5">更多...</a><br /></td></tr>
+<tr class="separator:a552802538d7d881e3b559c5f3c2f08c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db7a46bdbb9f649eff911cbcc6f9051"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a2db7a46bdbb9f649eff911cbcc6f9051">SetSystemSplitMode</a> (int flag)</td></tr>
+<tr class="memdesc:a2db7a46bdbb9f649eff911cbcc6f9051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set system split mode : 1=split by system，0=split by app  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a2db7a46bdbb9f649eff911cbcc6f9051">更多...</a><br /></td></tr>
+<tr class="separator:a2db7a46bdbb9f649eff911cbcc6f9051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c55fce2af522765613d621420e1310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac0c55fce2af522765613d621420e1310">UpateCameraFar</a> (float far)</td></tr>
+<tr class="memdesc:ac0c55fce2af522765613d621420e1310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the left and right camera's farClipPlane  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac0c55fce2af522765613d621420e1310">更多...</a><br /></td></tr>
+<tr class="separator:ac0c55fce2af522765613d621420e1310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ca3f7ecbb903a6708860956edda215"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a41ca3f7ecbb903a6708860956edda215">UpdateEyeCameraProjection</a> (<a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a> eye)</td></tr>
+<tr class="memdesc:a41ca3f7ecbb903a6708860956edda215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update eye camera projection  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a41ca3f7ecbb903a6708860956edda215">更多...</a><br /></td></tr>
+<tr class="separator:a41ca3f7ecbb903a6708860956edda215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196f3cf63df61df096ff992f8e2001d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a196f3cf63df61df096ff992f8e2001d2">ResetCameraFov</a> ()</td></tr>
+<tr class="memdesc:a196f3cf63df61df096ff992f8e2001d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the left and right camera's fov to default.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a196f3cf63df61df096ff992f8e2001d2">更多...</a><br /></td></tr>
+<tr class="separator:a196f3cf63df61df096ff992f8e2001d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a367c7594c1b972365548611cf4509fbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a367c7594c1b972365548611cf4509fbf">UpdateCameraFov</a> (float fov)</td></tr>
+<tr class="memdesc:a367c7594c1b972365548611cf4509fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the left and right camera's fov fov range [40~90]  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a367c7594c1b972365548611cf4509fbf">更多...</a><br /></td></tr>
+<tr class="separator:a367c7594c1b972365548611cf4509fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d4f748c646e94eb4a5f88b1d6d7ea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a69d4f748c646e94eb4a5f88b1d6d7ea1">SetHorizontalAngleRange</a> (float minRange, float maxRange)</td></tr>
+<tr class="memdesc:a69d4f748c646e94eb4a5f88b1d6d7ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set horizontal angle range :mid is 0，left is less than 0，right is greater than 0  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a69d4f748c646e94eb4a5f88b1d6d7ea1">更多...</a><br /></td></tr>
+<tr class="separator:a69d4f748c646e94eb4a5f88b1d6d7ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a689892a481ce3766c2b484a0918b1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a5a689892a481ce3766c2b484a0918b1f">SetVerticalAngleRange</a> (float minRange, float maxRange)</td></tr>
+<tr class="memdesc:a5a689892a481ce3766c2b484a0918b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vertical angle range :mid is 0，up is less than 0，down is greater than 0  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a5a689892a481ce3766c2b484a0918b1f">更多...</a><br /></td></tr>
+<tr class="separator:a5a689892a481ce3766c2b484a0918b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fafa55004866a44d66ca28488faa835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a6fafa55004866a44d66ca28488faa835">RemoveAngleLimit</a> ()</td></tr>
+<tr class="memdesc:a6fafa55004866a44d66ca28488faa835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove head angle limit  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a6fafa55004866a44d66ca28488faa835">更多...</a><br /></td></tr>
+<tr class="separator:a6fafa55004866a44d66ca28488faa835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5feda536fc036b490daa05acc99409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a1e5feda536fc036b490daa05acc99409">OpenVideoPlayer</a> (string path, int type2D3D, int mode, int decode)</td></tr>
+<tr class="memdesc:a1e5feda536fc036b490daa05acc99409"><td class="mdescLeft">&#160;</td><td class="mdescRight">open system app video player  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a1e5feda536fc036b490daa05acc99409">更多...</a><br /></td></tr>
+<tr class="separator:a1e5feda536fc036b490daa05acc99409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091868ba2722e87539c8a6ed7c36d7a4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a091868ba2722e87539c8a6ed7c36d7a4">GetStoragePath</a> ()</td></tr>
+<tr class="memdesc:a091868ba2722e87539c8a6ed7c36d7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get android SD Card's path（/storage/emulated/0）  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a091868ba2722e87539c8a6ed7c36d7a4">更多...</a><br /></td></tr>
+<tr class="separator:a091868ba2722e87539c8a6ed7c36d7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050037f4b76f083078b8d6e6ced23d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a050037f4b76f083078b8d6e6ced23d14">SetIsKeepScreenOn</a> (bool keep)</td></tr>
+<tr class="memdesc:a050037f4b76f083078b8d6e6ced23d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the screen is always on.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a050037f4b76f083078b8d6e6ced23d14">更多...</a><br /></td></tr>
+<tr class="separator:a050037f4b76f083078b8d6e6ced23d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f5a3b0ab19e5c9bbe0aae40f223c06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a77f5a3b0ab19e5c9bbe0aae40f223c06">SetIpd</a> (float ipd)</td></tr>
+<tr class="memdesc:a77f5a3b0ab19e5c9bbe0aae40f223c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change eye's ipd  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a77f5a3b0ab19e5c9bbe0aae40f223c06">更多...</a><br /></td></tr>
+<tr class="separator:a77f5a3b0ab19e5c9bbe0aae40f223c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac674d5a1fbb130e1884262f07e331bf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac674d5a1fbb130e1884262f07e331bf6">ResetIpd</a> ()</td></tr>
+<tr class="memdesc:ac674d5a1fbb130e1884262f07e331bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset ipd's change  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac674d5a1fbb130e1884262f07e331bf6">更多...</a><br /></td></tr>
+<tr class="separator:ac674d5a1fbb130e1884262f07e331bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01ebe1b156b8ffa50e8fe0bfbecf17d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae01ebe1b156b8ffa50e8fe0bfbecf17d">GetIpd</a> ()</td></tr>
+<tr class="memdesc:ae01ebe1b156b8ffa50e8fe0bfbecf17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get eye's ipd  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae01ebe1b156b8ffa50e8fe0bfbecf17d">更多...</a><br /></td></tr>
+<tr class="separator:ae01ebe1b156b8ffa50e8fe0bfbecf17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85f3620bd9c5abe5cc853f2f2423abe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nxr_1_1_internal_1_1_nibiru_service.html">NibiruService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a85f3620bd9c5abe5cc853f2f2423abe2">GetNibiruService</a> ()</td></tr>
+<tr class="separator:a85f3620bd9c5abe5cc853f2f2423abe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2736bffb89d71d9a073c99426fb7d905"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a2736bffb89d71d9a073c99426fb7d905">GetMainCamera</a> ()</td></tr>
+<tr class="memdesc:a2736bffb89d71d9a073c99426fb7d905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get main camera  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a2736bffb89d71d9a073c99426fb7d905">更多...</a><br /></td></tr>
+<tr class="separator:a2736bffb89d71d9a073c99426fb7d905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cedf93329da8d614d46ad030f28180a"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a4cedf93329da8d614d46ad030f28180a">GetLeftEyeCamera</a> ()</td></tr>
+<tr class="memdesc:a4cedf93329da8d614d46ad030f28180a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get left eye camera  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a4cedf93329da8d614d46ad030f28180a">更多...</a><br /></td></tr>
+<tr class="separator:a4cedf93329da8d614d46ad030f28180a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121df7ab1aa5fd811944183efb6e1160"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a121df7ab1aa5fd811944183efb6e1160">GetRightEyeCamera</a> ()</td></tr>
+<tr class="memdesc:a121df7ab1aa5fd811944183efb6e1160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get right eye camera  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a121df7ab1aa5fd811944183efb6e1160">更多...</a><br /></td></tr>
+<tr class="separator:a121df7ab1aa5fd811944183efb6e1160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3a3fee0b20d637f405bccdd924964cd"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae3a3fee0b20d637f405bccdd924964cd">GetCameraQuaternion</a> ()</td></tr>
+<tr class="memdesc:ae3a3fee0b20d637f405bccdd924964cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get main camera's quaternion  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae3a3fee0b20d637f405bccdd924964cd">更多...</a><br /></td></tr>
+<tr class="separator:ae3a3fee0b20d637f405bccdd924964cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d1c82e978805df61c8a2ff56b5d5ff"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a17d1c82e978805df61c8a2ff56b5d5ff">GetControllerQuaternion</a> ()</td></tr>
+<tr class="memdesc:a17d1c82e978805df61c8a2ff56b5d5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get controller's quaternion  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a17d1c82e978805df61c8a2ff56b5d5ff">更多...</a><br /></td></tr>
+<tr class="separator:a17d1c82e978805df61c8a2ff56b5d5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3fb63382d83e54d5cb2556d7aef52ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac3fb63382d83e54d5cb2556d7aef52ce">SetControllerActive</a> (bool isActive)</td></tr>
+<tr class="memdesc:ac3fb63382d83e54d5cb2556d7aef52ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set controller's active status  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac3fb63382d83e54d5cb2556d7aef52ce">更多...</a><br /></td></tr>
+<tr class="separator:ac3fb63382d83e54d5cb2556d7aef52ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63942f9a6e08f648c49897bfc4dc8157"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a63942f9a6e08f648c49897bfc4dc8157">IsCameraLocked</a> ()</td></tr>
+<tr class="memdesc:a63942f9a6e08f648c49897bfc4dc8157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is main camera locked  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a63942f9a6e08f648c49897bfc4dc8157">更多...</a><br /></td></tr>
+<tr class="separator:a63942f9a6e08f648c49897bfc4dc8157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa766a6354e6239c7f65aa5dd80aade24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aa766a6354e6239c7f65aa5dd80aade24">IsControllerConnect</a> ()</td></tr>
+<tr class="memdesc:aa766a6354e6239c7f65aa5dd80aade24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is controller connect  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aa766a6354e6239c7f65aa5dd80aade24">更多...</a><br /></td></tr>
+<tr class="separator:aa766a6354e6239c7f65aa5dd80aade24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee879491bd5c580d60d6f3aeeaf5b781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aee879491bd5c580d60d6f3aeeaf5b781">LockCamera</a> (bool isLock)</td></tr>
+<tr class="memdesc:aee879491bd5c580d60d6f3aeeaf5b781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock main camera's rotation  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#aee879491bd5c580d60d6f3aeeaf5b781">更多...</a><br /></td></tr>
+<tr class="separator:aee879491bd5c580d60d6f3aeeaf5b781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe725eb219870cda4c168ae7a8eda3c"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a3fe725eb219870cda4c168ae7a8eda3c">GetRayStartPoint</a> ()</td></tr>
+<tr class="memdesc:a3fe725eb219870cda4c168ae7a8eda3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get 3dof controller's ray start point  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a3fe725eb219870cda4c168ae7a8eda3c">更多...</a><br /></td></tr>
+<tr class="separator:a3fe725eb219870cda4c168ae7a8eda3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404d2af01798753fb541fd313e2c4813"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a404d2af01798753fb541fd313e2c4813">GetRayEndPoint</a> ()</td></tr>
+<tr class="memdesc:a404d2af01798753fb541fd313e2c4813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get 3dof controller's ray end point  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a404d2af01798753fb541fd313e2c4813">更多...</a><br /></td></tr>
+<tr class="separator:a404d2af01798753fb541fd313e2c4813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a1ebcfe3085c6a4143f09a966372bbd0f"><td class="memItemLeft" align="right" valign="top"><a id="a1ebcfe3085c6a4143f09a966372bbd0f"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a1ebcfe3085c6a4143f09a966372bbd0f">Create</a> ()</td></tr>
+<tr class="memdesc:a1ebcfe3085c6a4143f09a966372bbd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html">NxrViewer</a> instance. Takes no action if one already exists. <br /></td></tr>
+<tr class="separator:a1ebcfe3085c6a4143f09a966372bbd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae369c0859aafb0943450cd4de30ffb00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ae369c0859aafb0943450cd4de30ffb00">AddStereoControllerToCameras</a> ()</td></tr>
+<tr class="separator:ae369c0859aafb0943450cd4de30ffb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a222e470e68b120836deff32fc33e1525"><td class="memItemLeft" align="right" valign="top">static ServiceReadyUpdatedDelegate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a222e470e68b120836deff32fc33e1525">serviceReadyUpdatedDelegate</a></td></tr>
+<tr class="memdesc:a222e470e68b120836deff32fc33e1525"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the service connection status (after the service is connected, you can check the plug-in support status)  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a222e470e68b120836deff32fc33e1525">更多...</a><br /></td></tr>
+<tr class="separator:a222e470e68b120836deff32fc33e1525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253fae81380f78f48ec7b8bdbaf7e1f9"><td class="memItemLeft" align="right" valign="top">static OnSixDofPosition&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a253fae81380f78f48ec7b8bdbaf7e1f9">onSixDofPosition</a></td></tr>
+<tr class="memdesc:a253fae81380f78f48ec7b8bdbaf7e1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">hmd 6dof position' data callback  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a253fae81380f78f48ec7b8bdbaf7e1f9">更多...</a><br /></td></tr>
+<tr class="separator:a253fae81380f78f48ec7b8bdbaf7e1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a9d3981acef6978cb5b347625cc059b00"><td class="memItemLeft" align="right" valign="top"><a id="a9d3981acef6978cb5b347625cc059b00"></a>
+static <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html">NxrViewer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a9d3981acef6978cb5b347625cc059b00">Instance</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9d3981acef6978cb5b347625cc059b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton instance of the NvrViewer class. <br /></td></tr>
+<tr class="separator:a9d3981acef6978cb5b347625cc059b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d1f3fe96e51229fae6b381e4860910"><td class="memItemLeft" align="right" valign="top">NxrStereoController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a45d1f3fe96e51229fae6b381e4860910">Controller</a><code> [get]</code></td></tr>
+<tr class="separator:a45d1f3fe96e51229fae6b381e4860910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326aa23aae36548c9ca67c87be037edf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a326aa23aae36548c9ca67c87be037edf">OpenEffectRender</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a326aa23aae36548c9ca67c87be037edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">false-Processing after closing，true-Processing after opening  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a326aa23aae36548c9ca67c87be037edf">更多...</a><br /></td></tr>
+<tr class="separator:a326aa23aae36548c9ca67c87be037edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea7564f81754a65336a492d5fb65344"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a7ea7564f81754a65336a492d5fb65344">SplitScreenModeEnabled</a><code> [get, set]</code></td></tr>
+<tr class="separator:a7ea7564f81754a65336a492d5fb65344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f1db775b4013adcd54cf37057cba48"><td class="memItemLeft" align="right" valign="top">HeadControl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a28f1db775b4013adcd54cf37057cba48">HeadControl</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a28f1db775b4013adcd54cf37057cba48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get/Set Head Control  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a28f1db775b4013adcd54cf37057cba48">更多...</a><br /></td></tr>
+<tr class="separator:a28f1db775b4013adcd54cf37057cba48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11b76209058366f84fc12707434d18c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac11b76209058366f84fc12707434d18c">IsAppHandleTriggerEvent</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac11b76209058366f84fc12707434d18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is app handle trigger event  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#ac11b76209058366f84fc12707434d18c">更多...</a><br /></td></tr>
+<tr class="separator:ac11b76209058366f84fc12707434d18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80cd4637f74680ea4e1bedec287ea0dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a80cd4637f74680ea4e1bedec287ea0dc">UseThirdPartyPosition</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a80cd4637f74680ea4e1bedec287ea0dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use third-party displacement data.  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a80cd4637f74680ea4e1bedec287ea0dc">更多...</a><br /></td></tr>
+<tr class="separator:a80cd4637f74680ea4e1bedec287ea0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053fb8a414bc8d4edf12c190ec6104bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a053fb8a414bc8d4edf12c190ec6104bd">LockHeadTracker</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a053fb8a414bc8d4edf12c190ec6104bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock head tracker  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a053fb8a414bc8d4edf12c190ec6104bd">更多...</a><br /></td></tr>
+<tr class="separator:a053fb8a414bc8d4edf12c190ec6104bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05927b0f5943d63b3991a83398ea7eb"><td class="memItemLeft" align="right" valign="top"><a id="af05927b0f5943d63b3991a83398ea7eb"></a>
+NxrProfile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#af05927b0f5943d63b3991a83398ea7eb">Profile</a><code> [get]</code></td></tr>
+<tr class="memdesc:af05927b0f5943d63b3991a83398ea7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the current device, including phone screen. <br /></td></tr>
+<tr class="separator:af05927b0f5943d63b3991a83398ea7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62179212641533db649576e05b1e5d6f"><td class="memItemLeft" align="right" valign="top"><a id="a62179212641533db649576e05b1e5d6f"></a>
+Pose3D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a62179212641533db649576e05b1e5d6f">HeadPose</a><code> [get]</code></td></tr>
+<tr class="memdesc:a62179212641533db649576e05b1e5d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transformation of head from origin in the tracking system. <br /></td></tr>
+<tr class="separator:a62179212641533db649576e05b1e5d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286fd4eac3b08adfd4ad3b24231edec3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a286fd4eac3b08adfd4ad3b24231edec3">Triggered</a><code> [get, set]</code></td></tr>
+<tr class="separator:a286fd4eac3b08adfd4ad3b24231edec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd0319da23d5f11076c3d7ec1f9f0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nxr_1_1_internal.html#a6286a0aab635cf29cefcc56d50701419">VOICE_LANGUAGE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a6bd0319da23d5f11076c3d7ec1f9f0fe">VoiceLanguage</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6bd0319da23d5f11076c3d7ec1f9f0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speech Recognition：Chinese or English  <a href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a6bd0319da23d5f11076c3d7ec1f9f0fe">更多...</a><br /></td></tr>
+<tr class="separator:a6bd0319da23d5f11076c3d7ec1f9f0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"></div><h2 class="groupheader">成员枚举类型说明</h2>
+<a id="a0503f880b193b16d1910e214d0e0d67e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0503f880b193b16d1910e214d0e0d67e">&#9670;&nbsp;</a></span>Distortion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Nxr.Internal.NxrViewer.Distortion</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>When retrieving the <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a5abb39734999ca4198dc4818ae15f222">Projection</a> and <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a216eb3c68dbe110187e4a4e9bd7976b0">Viewport</a> properties, specifies whether you want the values as seen through the viewer's lenses (<code>Distorted</code>) or as if no lenses were present (<code>Undistorted</code>). </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a0503f880b193b16d1910e214d0e0d67eaf40f9b0a9eced004f463266b5873832a"></a>Undistorted&#160;</td><td class="fielddoc"><p>Viewing through the lenses </p>
+<p>No lenses </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="adc994a0df74a7cad52643423b8eda0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc994a0df74a7cad52643423b8eda0bd">&#9670;&nbsp;</a></span>Eye</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Nxr.Internal.NxrViewer.Eye</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distinguish the stereo eyes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="adc994a0df74a7cad52643423b8eda0bda92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"><p>The left eye </p>
+</td></tr>
+<tr><td class="fieldname"><a id="adc994a0df74a7cad52643423b8eda0bda4f1f6016fc9f3f2353c0cc7c67b292bd"></a>Center&#160;</td><td class="fielddoc"><p>The right eye </p>
+<p>The "center" eye (unused) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ae369c0859aafb0943450cd4de30ffb00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae369c0859aafb0943450cd4de30ffb00">&#9670;&nbsp;</a></span>AddStereoControllerToCameras()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Nxr.Internal.NxrViewer.AddStereoControllerToCameras </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Add a StereoController to any camera that does not have a Render Texture (meaning it is rendering to the screen). </p>
+
+</div>
+</div>
+<a id="a86bdf72622adab61d04674184c4516b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86bdf72622adab61d04674184c4516b3">&#9670;&nbsp;</a></span>AndroidLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.AndroidLog </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print log use android logcat </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a552802538d7d881e3b559c5f3c2f08c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a552802538d7d881e3b559c5f3c2f08c5">&#9670;&nbsp;</a></span>AppQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.AppQuit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Quit app </p>
+
+</div>
+</div>
+<a id="a42d32646108ef68f9170c4ccaf1e6c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d32646108ef68f9170c4ccaf1e6c9c">&#9670;&nbsp;</a></span>GazeApi() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.GazeApi </td>
+          <td>(</td>
+          <td class="paramtype">GazeTag&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change Gaze's size/color/status </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a045931ac623717344a1e3f934428a98c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045931ac623717344a1e3f934428a98c">&#9670;&nbsp;</a></span>GazeApi() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.GazeApi </td>
+          <td>(</td>
+          <td class="paramtype">GazeTag&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The parameter of Param behind GazeTag.Show and GazeTag.Hide is passed "". </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td></td></tr>
+    <tr><td class="paramname">param</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae3a3fee0b20d637f405bccdd924964cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3a3fee0b20d637f405bccdd924964cd">&#9670;&nbsp;</a></span>GetCameraQuaternion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion Nxr.Internal.NxrViewer.GetCameraQuaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get main camera's quaternion </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a17d1c82e978805df61c8a2ff56b5d5ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d1c82e978805df61c8a2ff56b5d5ff">&#9670;&nbsp;</a></span>GetControllerQuaternion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion Nxr.Internal.NxrViewer.GetControllerQuaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get controller's quaternion </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7245912e511107749a4439df63f5d537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7245912e511107749a4439df63f5d537">&#9670;&nbsp;</a></span>GetHead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NxrHead Nxr.Internal.NxrViewer.GetHead </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the NxrHead </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer_a7245912e511107749a4439df63f5d537_icgraph.gif" border="0" usemap="#aclass_nxr_1_1_internal_1_1_nxr_viewer_a7245912e511107749a4439df63f5d537_icgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="ae01ebe1b156b8ffa50e8fe0bfbecf17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01ebe1b156b8ffa50e8fe0bfbecf17d">&#9670;&nbsp;</a></span>GetIpd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Nxr.Internal.NxrViewer.GetIpd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get eye's ipd </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a4cedf93329da8d614d46ad030f28180a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cedf93329da8d614d46ad030f28180a">&#9670;&nbsp;</a></span>GetLeftEyeCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera Nxr.Internal.NxrViewer.GetLeftEyeCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get left eye camera </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a2736bffb89d71d9a073c99426fb7d905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2736bffb89d71d9a073c99426fb7d905">&#9670;&nbsp;</a></span>GetMainCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera Nxr.Internal.NxrViewer.GetMainCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get main camera </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a85f3620bd9c5abe5cc853f2f2423abe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85f3620bd9c5abe5cc853f2f2423abe2">&#9670;&nbsp;</a></span>GetNibiruService()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_nxr_1_1_internal_1_1_nibiru_service.html">NibiruService</a> Nxr.Internal.NxrViewer.GetNibiruService </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p></p>
+<p>Call after script's Awake</p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a404d2af01798753fb541fd313e2c4813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a404d2af01798753fb541fd313e2c4813">&#9670;&nbsp;</a></span>GetRayEndPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Nxr.Internal.NxrViewer.GetRayEndPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get 3dof controller's ray end point </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a3fe725eb219870cda4c168ae7a8eda3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe725eb219870cda4c168ae7a8eda3c">&#9670;&nbsp;</a></span>GetRayStartPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Nxr.Internal.NxrViewer.GetRayStartPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get 3dof controller's ray start point </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a121df7ab1aa5fd811944183efb6e1160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a121df7ab1aa5fd811944183efb6e1160">&#9670;&nbsp;</a></span>GetRightEyeCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera Nxr.Internal.NxrViewer.GetRightEyeCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get right eye camera </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a091868ba2722e87539c8a6ed7c36d7a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a091868ba2722e87539c8a6ed7c36d7a4">&#9670;&nbsp;</a></span>GetStoragePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nxr.Internal.NxrViewer.GetStoragePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get android SD Card's path（/storage/emulated/0） </p>
+<dl class="section return"><dt>返回</dt><dd>exp: /storage/emulated/0</dd></dl>
+
+</div>
+</div>
+<a id="ab3b777eff2b0a7391006e59c11d78835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b777eff2b0a7391006e59c11d78835">&#9670;&nbsp;</a></span>HideHeadControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.HideHeadControl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hide head control </p>
+
+</div>
+</div>
+<a id="a63942f9a6e08f648c49897bfc4dc8157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63942f9a6e08f648c49897bfc4dc8157">&#9670;&nbsp;</a></span>IsCameraLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.IsCameraLocked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is main camera locked </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer_a63942f9a6e08f648c49897bfc4dc8157_cgraph.gif" border="0" usemap="#aclass_nxr_1_1_internal_1_1_nxr_viewer_a63942f9a6e08f648c49897bfc4dc8157_cgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="aa766a6354e6239c7f65aa5dd80aade24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa766a6354e6239c7f65aa5dd80aade24">&#9670;&nbsp;</a></span>IsControllerConnect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.IsControllerConnect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is controller connect </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer_aa766a6354e6239c7f65aa5dd80aade24_cgraph.gif" border="0" usemap="#aclass_nxr_1_1_internal_1_1_nxr_viewer_aa766a6354e6239c7f65aa5dd80aade24_cgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="aee879491bd5c580d60d6f3aeeaf5b781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee879491bd5c580d60d6f3aeeaf5b781">&#9670;&nbsp;</a></span>LockCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.LockCamera </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isLock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lock main camera's rotation </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isLock</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer_aee879491bd5c580d60d6f3aeeaf5b781_cgraph.gif" border="0" usemap="#aclass_nxr_1_1_internal_1_1_nxr_viewer_aee879491bd5c580d60d6f3aeeaf5b781_cgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="a1e5feda536fc036b490daa05acc99409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e5feda536fc036b490daa05acc99409">&#9670;&nbsp;</a></span>OpenVideoPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.OpenVideoPlayer </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type2D3D</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>decode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>open system app video player </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>video path</td></tr>
+    <tr><td class="paramname">type2D3D</td><td>0=2d,1=3d mode</td></tr>
+    <tr><td class="paramname">mode</td><td>0=normal,1=360,2=180,3=fullmode video type</td></tr>
+    <tr><td class="paramname">decode</td><td>0=hardware,1=software decode mode</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5abb39734999ca4198dc4818ae15f222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5abb39734999ca4198dc4818ae15f222">&#9670;&nbsp;</a></span>Projection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Matrix4x4 Nxr.Internal.NxrViewer.Projection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a>&#160;</td>
+          <td class="paramname"><em>eye</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Distortion</a>&#160;</td>
+          <td class="paramname"><em>distortion</em> = <code>Distortion.Distorted</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The projection matrix for a given eye. This matrix is an off-axis perspective projection with near and far clipping planes of 1m and 1000m, respectively. The NxrEye script takes care of adjusting the matrix for its particular camera. </p>
+
+</div>
+</div>
+<a id="aebfc6cf514a10bb086d56615a12651e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfc6cf514a10bb086d56615a12651e4">&#9670;&nbsp;</a></span>Recenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.Recenter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets the tracker so that the user's current direction becomes forward. </p>
+
+</div>
+</div>
+<a id="a6fafa55004866a44d66ca28488faa835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fafa55004866a44d66ca28488faa835">&#9670;&nbsp;</a></span>RemoveAngleLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.RemoveAngleLimit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove head angle limit </p>
+
+</div>
+</div>
+<a id="ae3d8766615b8b7eae56276829e31da99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d8766615b8b7eae56276829e31da99">&#9670;&nbsp;</a></span>RequestLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.RequestLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lock head posture. </p>
+
+</div>
+</div>
+<a id="ab925f42ae637225e174e860572efd2a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab925f42ae637225e174e860572efd2a3">&#9670;&nbsp;</a></span>RequestUnLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.RequestUnLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unlock head posture. </p>
+
+</div>
+</div>
+<a id="a196f3cf63df61df096ff992f8e2001d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196f3cf63df61df096ff992f8e2001d2">&#9670;&nbsp;</a></span>ResetCameraFov()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.ResetCameraFov </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the left and right camera's fov to default. </p>
+
+</div>
+</div>
+<a id="ac674d5a1fbb130e1884262f07e331bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac674d5a1fbb130e1884262f07e331bf6">&#9670;&nbsp;</a></span>ResetIpd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.ResetIpd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset ipd's change </p>
+
+</div>
+</div>
+<a id="ac3fb63382d83e54d5cb2556d7aef52ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3fb63382d83e54d5cb2556d7aef52ce">&#9670;&nbsp;</a></span>SetControllerActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetControllerActive </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isActive</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set controller's active status </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isActive</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69d4f748c646e94eb4a5f88b1d6d7ea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d4f748c646e94eb4a5f88b1d6d7ea1">&#9670;&nbsp;</a></span>SetHorizontalAngleRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetHorizontalAngleRange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set horizontal angle range :mid is 0，left is less than 0，right is greater than 0 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minRange</td><td></td></tr>
+    <tr><td class="paramname">maxRange</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a77f5a3b0ab19e5c9bbe0aae40f223c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f5a3b0ab19e5c9bbe0aae40f223c06">&#9670;&nbsp;</a></span>SetIpd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetIpd </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ipd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change eye's ipd </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ipd</td><td>0.064</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a050037f4b76f083078b8d6e6ced23d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050037f4b76f083078b8d6e6ced23d14">&#9670;&nbsp;</a></span>SetIsKeepScreenOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetIsKeepScreenOn </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>keep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the screen is always on. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2db7a46bdbb9f649eff911cbcc6f9051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2db7a46bdbb9f649eff911cbcc6f9051">&#9670;&nbsp;</a></span>SetSystemSplitMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetSystemSplitMode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set system split mode : 1=split by system，0=split by app </p>
+
+</div>
+</div>
+<a id="a5a689892a481ce3766c2b484a0918b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a689892a481ce3766c2b484a0918b1f">&#9670;&nbsp;</a></span>SetVerticalAngleRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SetVerticalAngleRange </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>minRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set vertical angle range :mid is 0，up is less than 0，down is greater than 0 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minRange</td><td></td></tr>
+    <tr><td class="paramname">maxRange</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afefa1055624c47df65efddc58f24aaab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefa1055624c47df65efddc58f24aaab">&#9670;&nbsp;</a></span>ShowHeadControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.ShowHeadControl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show head control </p>
+
+</div>
+</div>
+<a id="af7a7dfbd200a7e8bb1575184872d281f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7a7dfbd200a7e8bb1575184872d281f">&#9670;&nbsp;</a></span>SwitchControllerMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.SwitchControllerMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Switch to controller mode </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac0c55fce2af522765613d621420e1310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c55fce2af522765613d621420e1310">&#9670;&nbsp;</a></span>UpateCameraFar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.UpateCameraFar </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>far</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the left and right camera's farClipPlane </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">far</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a472023735f9059f581b8c5d529d6ea30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472023735f9059f581b8c5d529d6ea30">&#9670;&nbsp;</a></span>Update3rdPartyPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.Update3rdPartyPosition </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The displacement data of Third-party. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_nxr_1_1_internal_1_1_nxr_viewer_a472023735f9059f581b8c5d529d6ea30_cgraph.gif" border="0" usemap="#aclass_nxr_1_1_internal_1_1_nxr_viewer_a472023735f9059f581b8c5d529d6ea30_cgraph" alt=""/></div>
+</div>
+
+</div>
+</div>
+<a id="a367c7594c1b972365548611cf4509fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a367c7594c1b972365548611cf4509fbf">&#9670;&nbsp;</a></span>UpdateCameraFov()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.UpdateCameraFov </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fov</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change the left and right camera's fov fov range [40~90] </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fov</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a41ca3f7ecbb903a6708860956edda215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ca3f7ecbb903a6708860956edda215">&#9670;&nbsp;</a></span>UpdateEyeCameraProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.UpdateEyeCameraProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a>&#160;</td>
+          <td class="paramname"><em>eye</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update eye camera projection </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eye</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afd6fcf210ebc3bb850d88eacd3b61985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6fcf210ebc3bb850d88eacd3b61985">&#9670;&nbsp;</a></span>UpdateState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nxr.Internal.NxrViewer.UpdateState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reads the latest tracking data from the phone. This must be called before accessing any of the poses and matrices above.</p>
+<p>Multiple invocations per frame are OK: Subsequent calls merely yield the cached results of the first call. To minimize latency, it should be first called later in the frame (for example, in <code>LateUpdate</code>) if possible. </p>
+
+</div>
+</div>
+<a id="a216eb3c68dbe110187e4a4e9bd7976b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a216eb3c68dbe110187e4a4e9bd7976b0">&#9670;&nbsp;</a></span>Viewport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect Nxr.Internal.NxrViewer.Viewport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#adc994a0df74a7cad52643423b8eda0bd">Eye</a>&#160;</td>
+          <td class="paramname"><em>eye</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_nxr_1_1_internal_1_1_nxr_viewer.html#a0503f880b193b16d1910e214d0e0d67e">Distortion</a>&#160;</td>
+          <td class="paramname"><em>distortion</em> = <code>Distortion.Distorted</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The screen space viewport that the camera for the specified eye should render into. In the <em>Distorted</em> case, this will be either the left or right half of the <code>StereoScreen</code> render texture. In the <em>Undistorted</em> case, it refers to the actual rectangle on the screen that the eye can see. </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a253fae81380f78f48ec7b8bdbaf7e1f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253fae81380f78f48ec7b8bdbaf7e1f9">&#9670;&nbsp;</a></span>onSixDofPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OnSixDofPosition Nxr.Internal.NxrViewer.onSixDofPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>hmd 6dof position' data callback </p>
+
+</div>
+</div>
+<a id="a222e470e68b120836deff32fc33e1525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222e470e68b120836deff32fc33e1525">&#9670;&nbsp;</a></span>serviceReadyUpdatedDelegate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServiceReadyUpdatedDelegate Nxr.Internal.NxrViewer.serviceReadyUpdatedDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the service connection status (after the service is connected, you can check the plug-in support status) </p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a id="a45d1f3fe96e51229fae6b381e4860910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d1f3fe96e51229fae6b381e4860910">&#9670;&nbsp;</a></span>Controller</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NxrStereoController Nxr.Internal.NxrViewer.Controller</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The StereoController instance attached to the main camera, or null if there is none. </p><dl class="section note"><dt>注解</dt><dd>Cached for performance. </dd></dl>
+
+</div>
+</div>
+<a id="a28f1db775b4013adcd54cf37057cba48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f1db775b4013adcd54cf37057cba48">&#9670;&nbsp;</a></span>HeadControl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HeadControl Nxr.Internal.NxrViewer.HeadControl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get/Set Head Control </p>
+
+</div>
+</div>
+<a id="ac11b76209058366f84fc12707434d18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11b76209058366f84fc12707434d18c">&#9670;&nbsp;</a></span>IsAppHandleTriggerEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.IsAppHandleTriggerEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is app handle trigger event </p>
+
+</div>
+</div>
+<a id="a053fb8a414bc8d4edf12c190ec6104bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053fb8a414bc8d4edf12c190ec6104bd">&#9670;&nbsp;</a></span>LockHeadTracker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.LockHeadTracker</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lock head tracker </p>
+
+</div>
+</div>
+<a id="a326aa23aae36548c9ca67c87be037edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326aa23aae36548c9ca67c87be037edf">&#9670;&nbsp;</a></span>OpenEffectRender</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.OpenEffectRender</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>false-Processing after closing，true-Processing after opening </p>
+
+</div>
+</div>
+<a id="a7ea7564f81754a65336a492d5fb65344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea7564f81754a65336a492d5fb65344">&#9670;&nbsp;</a></span>SplitScreenModeEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.SplitScreenModeEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determine whether the scene renders in stereo or mono. <em>True</em> means to render in stereo, and <em>false</em> means to render in mono. </p>
+
+</div>
+</div>
+<a id="a286fd4eac3b08adfd4ad3b24231edec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a286fd4eac3b08adfd4ad3b24231edec3">&#9670;&nbsp;</a></span>Triggered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.Triggered</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether the viewer's trigger was pulled. True for exactly one complete frame after each pull </p>
+
+</div>
+</div>
+<a id="a80cd4637f74680ea4e1bedec287ea0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80cd4637f74680ea4e1bedec287ea0dc">&#9670;&nbsp;</a></span>UseThirdPartyPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nxr.Internal.NxrViewer.UseThirdPartyPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether to use third-party displacement data. </p>
+
+</div>
+</div>
+<a id="a6bd0319da23d5f11076c3d7ec1f9f0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd0319da23d5f11076c3d7ec1f9f0fe">&#9670;&nbsp;</a></span>VoiceLanguage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_nxr_1_1_internal.html#a6286a0aab635cf29cefcc56d50701419">VOICE_LANGUAGE</a> Nxr.Internal.NxrViewer.VoiceLanguage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Speech Recognition：Chinese or English </p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>D:/UnityProject/NibiruXR_PRO_V5.4.3/Assets/NXR/Scripts/Api/NxrViewer.cs</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

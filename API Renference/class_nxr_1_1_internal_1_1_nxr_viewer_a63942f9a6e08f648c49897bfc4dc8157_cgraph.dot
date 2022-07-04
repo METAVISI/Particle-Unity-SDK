@@ -1,0 +1,10 @@
+digraph "Nxr.Internal.NxrViewer.IsCameraLocked"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Nxr.Internal.NxrViewer.Is\lCameraLocked",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Is main camera locked"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrViewer.GetHead",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_viewer.html#a7245912e511107749a4439df63f5d537",tooltip="Get the NxrHead"];
+}

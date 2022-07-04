@@ -1,0 +1,7 @@
+digraph "Nxr.Internal.NibiruService"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Nxr.Internal.NibiruService\n|+ HMDCameraId\l+ ControllerCameraId\l+ NKEY_SYS_HANDLE\l+ NKEY_APP_HANDLE\l+ OnSensorDataChangedHandler\l+ OnCameraIdle\l+ OnCameraBusy\l+ OnRecorderSuccessHandler\l+ OnRecorderFailedHandler\l+ BIT_RATE\l+ CameraPreviewHelper\l+ IsCaptureEnabled\l+ IsMarkerRecognizeRunning\l# androidActivity\l# nibiruSDKClass\l# nibiruOsServiceObject\l# nibiruSensorServiceObject\l# nibiruVoiceServiceObject\l# nibiruGestureServiceObject\l# nibiruVRServiceObject\l# nibiruCameraServiceObject\l# nibiruMarkerServiceObject\l# cameraPreviewHelper\l# cameraDeviceObject\l# audioManager\l|+ Init()\l+ RegHandleNKey()\l+ SetEnableFPS()\l+ GetFPS()\l+ RegisterVirtualMouseService()\l+ UnRegisterVirtualMouseService()\l+ SetEnableVirtualMouse()\l+ InitCameraPreviewHelper()\l+ GetCameraStatus()\l+ GetCurrentCameraId()\l和 56 更多...\l+ SetCaptureVideoSize()\l+ IsAllZero()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

@@ -1,0 +1,7 @@
+digraph "Nxr.Internal.NxrViewer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Nxr.Internal.NxrViewer\n|+ eyes\l+ HmdType\l+ textureMsaa\l+ settings\l+ textureQuality\l+ eyeStereoScreens\l+ sleepTimeoutMode\l+ controllerSupportMode\l+ NXR_SDK_VERSION\l+ IsAndroidKillProcess\l+ USE_DTR\l+ kPreRenderEvent\l+ serviceReadyUpdatedDelegate\l+ onSixDofPosition\l+ onMarkerLoadStatus\l+ Instance\l+ Controller\l+ OpenEffectRender\l+ SplitScreenModeEnabled\l+ HeadControl\l+ Duration\l+ IsAppHandleTriggerEvent\l+ TrackerPosition\l+ UseThirdPartyPosition\l+ TextureMSAA\l和 16 更多...\l|+ GetNxrReticle()\l+ DismissReticle()\l+ ShowReticle()\l+ ShowHeadControl()\l+ HideHeadControl()\l+ RequestLock()\l+ RequestUnLock()\l+ GazeApi()\l+ TurnOff()\l+ Reboot()\l和 59 更多...\l+ Create()\l+ AddStereoControllerToCameras()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

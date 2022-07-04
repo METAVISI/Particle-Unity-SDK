@@ -1,0 +1,7 @@
+digraph "Nxr.Internal.NxrInput"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Nxr.Internal.NxrInput\n||+ NxrInput()\l+ Reset()\l+ OnChangeKeyEvent()\l+ Process()\l+ IsNoloControllerConnected()\l+ Is3DofControllerConnected()\l+ GetKeyPressed()\l+ GetKeyDown()\l+ GetKeyUp()\l+ GetControllerKeyDown()\l+ GetControllerKeyPressed()\l+ GetControllerKeyUp()\l+ GetControllerKeyDown()\l+ GetControllerKeyPressed()\l+ GetControllerKeyUp()\l+ OnBackDown()\l+ OnBackUp()\l+ GetTouchPadPosition()\l+ GetTouchPadPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

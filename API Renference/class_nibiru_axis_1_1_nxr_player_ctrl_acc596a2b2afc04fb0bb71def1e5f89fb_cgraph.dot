@@ -1,0 +1,12 @@
+digraph "NibiruAxis.NxrPlayerCtrl.CreateControllerTips"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NibiruAxis.NxrPlayerCtrl.\lCreateControllerTips",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Create parent object of handle prompt UI."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrSDKApi.Is\lSptControllerTipUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_s_d_k_api.html#a04f16351d90a57396bcc73df38f760ba",tooltip="Is support controller tip ui"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NibiruTask.InteractionManager.\lIsSptControllerTipUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nibiru_task_1_1_interaction_manager.html#ab1a901834541f365848df73ed78423f9",tooltip="Is support controller tip ui"];
+}

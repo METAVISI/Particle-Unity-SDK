@@ -1,0 +1,10 @@
+digraph "Nxr.Internal.NxrInput.GetKeyDown"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Nxr.Internal.NxrInput.Get\lKeyDown",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Check hmd key status, whether the button is down"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrInput.On\lBackDown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_input.html#a8728311c639be99e22da826ce681e1b2",tooltip="Whether the back button is down. (hmd or controller)"];
+}

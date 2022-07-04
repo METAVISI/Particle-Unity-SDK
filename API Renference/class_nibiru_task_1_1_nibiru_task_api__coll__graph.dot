@@ -1,0 +1,7 @@
+digraph "NibiruTask.NibiruTaskApi"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NibiruTask.NibiruTaskApi\n|+ version\l+ selectionCallback\l+ powerChangeListener\l+ nibiruPowerListener\l+ serverApiReady\l+ serverApiReadyListener\l+ sysSleepApiReady\l+ sysSleepApiReadyListener\l+ deviceConnectState\l# androidActivity\l# nibiruSDKClass\l# nibiruOsServiceObject\l|+ onSelectionResult()\l+ onPowerChange()\l+ onServerApiReady()\l+ onSysSleepApiReady()\l+ onDeviceConnectState()\l+ setSelectionCallback()\l+ addOnPowerChangeListener()\l+ removeOnPowerChangeListener()\l+ addOnServerApiReadyCallback()\l+ removeOnServerApiReadyCallback()\l+ addOnSysSleepApiReadyCallback()\l+ removeOnSysSleepApiReady\lCallback()\l+ setOnDeviceListener()\l+ Init()\l+ IsPluginDeclared()\l和 74 更多...\l# ConnectToActivity()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

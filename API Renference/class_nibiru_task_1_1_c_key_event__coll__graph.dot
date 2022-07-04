@@ -1,0 +1,7 @@
+digraph "NibiruTask.CKeyEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NibiruTask.CKeyEvent\n|+ ACTION_DOWN\l+ ACTION_UP\l+ ACTION_MOVE\l+ KEYCODE_DPAD_UP\l+ KEYCODE_DPAD_DOWN\l+ KEYCODE_DPAD_LEFT\l+ KEYCODE_DPAD_RIGHT\l+ KEYCODE_DPAD_CENTER\l+ KEYCODE_VOLUME_UP\l+ KEYCODE_VOLUME_DOWN\l和 44 更多...\l|+ IsTriggerKeyCode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

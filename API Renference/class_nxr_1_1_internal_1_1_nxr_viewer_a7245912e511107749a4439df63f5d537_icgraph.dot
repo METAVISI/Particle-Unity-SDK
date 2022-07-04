@@ -1,0 +1,14 @@
+digraph "Nxr.Internal.NxrViewer.GetHead"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Nxr.Internal.NxrViewer.GetHead",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Get the NxrHead"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Nxr.Internal.NxrViewer.Is\lCameraLocked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_viewer.html#a63942f9a6e08f648c49897bfc4dc8157",tooltip="Is main camera locked"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Nxr.Internal.NxrViewer.Lock\lCamera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_viewer.html#aee879491bd5c580d60d6f3aeeaf5b781",tooltip="Lock main camera's rotation"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Nxr.Internal.NxrViewer.Update3rd\lPartyPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_nxr_1_1_internal_1_1_nxr_viewer.html#a472023735f9059f581b8c5d529d6ea30",tooltip="The displacement data of Third-party."];
+}
